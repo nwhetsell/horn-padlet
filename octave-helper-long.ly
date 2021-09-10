@@ -8,10 +8,6 @@
   instrument = "Horn in F"
 }
 
-\layout {
-  ragged-last = ##t
-}
-
 \language "english"
 
 \relative {
@@ -137,6 +133,7 @@
 
 \layout {
   indent = 0
+  ragged-last = ##t
 }
 
 \header {
