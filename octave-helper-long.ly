@@ -8,6 +8,10 @@
   instrument = "Horn in F"
 }
 
+\layout {
+  ragged-last = ##t
+}
+
 \language "english"
 
 \relative {
@@ -37,25 +41,29 @@
   f,16-. 16-. 16-. 16-. f'4-- f,4-- f'4-- |
   f,2 r\fermata | \break
 
+  f-sharp16-. 16-. 16-. 16( f-sharp'4 f-sharp,4 f-sharp'4) |
+  f-sharp,16-. 16-. 16-. 16-. f-sharp'4-- f-sharp,4-- f-sharp'4-- |
+  f-sharp,2 r\fermata |
+
   g16-. 16-. 16-. 16( g'4 g,4 g'4) |
   g,16-. 16-. 16-. 16-. g'4-- g,4-- g'4-- |
-  g,2 r\fermata |
+  g,2 r\fermata | \break
 
   g-sharp16-. 16-. 16-. 16( g-sharp'4 g-sharp,4 g-sharp'4) |
   g-sharp,16-. 16-. 16-. 16-. g-sharp'4-- g-sharp,4-- g-sharp'4-- |
-  g-sharp,2 r\fermata | \break
+  g-sharp,2 r\fermata |
 
   a16-. 16-. 16-. 16( a'4 a,4 a'4) |
   a,16-. 16-. 16-. 16-. a'4-- a,4-- a'4-- |
-  a,2 r\fermata |
+  a,2 r\fermata | \break
 
   a-sharp16-. 16-. 16-. 16( a-sharp'4 a-sharp,4 a-sharp'4) |
   a-sharp,16-. 16-. 16-. 16-. a-sharp'4-- a-sharp,4-- a-sharp'4-- |
-  a-sharp,2 r\fermata | \break
+  a-sharp,2 r\fermata |
 
   b16-. 16-. 16-. 16( b'4 b,4 b'4) |
   b,16-. 16-. 16-. 16-. b'4-- b,4-- b'4-- |
-  b,2 r\fermata |
+  b,2 r\fermata | \break
 
   c16-. 16-. 16-. 16( c'4 c,4 c'4) |
   c,16-. 16-. 16-. 16-. c'4-- c,4-- c'4-- |
