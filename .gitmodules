@@ -1,0 +1,3 @@
+[submodule "lilypond-unstressed"]
+	path = lilypond-unstressed
+	url = https://github.com/nwhetsell/lilypond-unstressed.git
