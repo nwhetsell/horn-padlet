@@ -79,22 +79,17 @@
     \override #'(baseline-skip . 3.5)
     \column {
       \fill-line {
-        \override #'(font-name . "Playfair Display Regular")
         \abs-fontsize #20
         \fromproperty #'header:title
         \concat {
-          \override #'(font-name . "Playfair Display Medium")
           \abs-fontsize #14
           \fromproperty #'header:composer-first-name
-          \override #'(font-name . "Playfair Display Medium")
           \abs-fontsize #14
           " "
-          \override #'(font-name . "Playfair Display Regular")
           \abs-fontsize #20
           \fromproperty #'header:composer-last-name
         }
       }
-      \override #'(font-name . "Playfair Display Medium")
       \abs-fontsize #10
       \fill-line {
         \fromproperty #'header:instrument
@@ -107,7 +102,6 @@
   scoreTitleMarkup = \markup {
     \column {
       \fill-line {
-        \override #'(font-name . "Playfair Display Regular")
         \abs-fontsize #20
         \fromproperty #'header:piece
       }
@@ -116,7 +110,6 @@
   }
 
   evenHeaderMarkup = \markup {
-    \override #'(font-name . "Playfair Display Medium")
     \abs-fontsize #10
     \column {
       \fill-line {
