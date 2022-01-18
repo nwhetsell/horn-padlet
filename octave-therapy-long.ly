@@ -3,7 +3,7 @@
 \header {
   composer-last-name = "Whetsell"
   composer-first-name = "Nathan"
-  title = "Octave Helper"
+  title = "Octave Therapy"
   opus = "ca. 2021"
   instrument = "Horn in F"
 }
