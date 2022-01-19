@@ -23,3 +23,15 @@
   c8( d e g, d' e g, e' |
   c2) r | \bar "|."
 }
+
+\relative {
+  \time 3/4
+  c'8( e g e g e) |
+  g8( c d e c d) |
+  e8( c e d g, d') |
+  e4( c2) |
+  d8( e d g, d' e) |
+  c8( e c g c d) |
+  e8( d g, d' e d) |
+  c2 r4 | \bar "|."
+}
