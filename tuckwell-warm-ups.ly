@@ -12,20 +12,28 @@
 
 \language "english"
 
-\relative {
-  <>^\markup { Also practice tongued (without slurs) }
+warm-up-one = \relative {
+  \key c \major
   c''8( d e d c g e g) |
   c8( d e d c g c d) |
   e8( c g c e c e d |
-  c2) r |
+  c2) r | \break
   d8( e d e d g, d' e) |
   d8( e d g, d' g, d' e) |
   c8( d e g, d' e g, e' |
-  c2) r | \bar "|."
+  c2) r | \break
+}
+\new Staff {
+  <>^\markup { Also practice tongued (without slurs) }
+  \warm-up-one \bar "||"
+  \transpose c b, { \warm-up-one } \bar "||"
+  \transpose c b-flat, { \warm-up-one } \bar "||"
+  \transpose c a, { \warm-up-one } \bar "||"
+  \transpose c a-flat, { \warm-up-one } \bar "|."
 }
 
-\relative {
-  \time 3/4
+warm-up-two = \relative {
+  \key c \major
   c'8( e g e g e) |
   g8( c d e c d) |
   e8( c e d g, d') |
@@ -33,5 +41,13 @@
   d8( e d g, d' e) |
   c8( e c g c d) |
   e8( d g, d' e d) |
-  c2 r4 | \bar "|."
+  c2 r4 | \break
+}
+\new Staff {
+  \time 3/4
+  \warm-up-two \bar "||"
+  \transpose c b, { \warm-up-two } \bar "||"
+  \transpose c b-flat, { \warm-up-two } \bar "||"
+  \transpose c a, { \warm-up-two } \bar "||"
+  \transpose c a-flat, { \warm-up-two } \bar "|."
 }
