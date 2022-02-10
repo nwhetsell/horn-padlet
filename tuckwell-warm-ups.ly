@@ -56,7 +56,7 @@ warm-up-three = \relative {
   % \key c \major
   c'8( e g4 e') |
   c8( g c4 e) |
-  g,4( e' c) |
+  g,4( e' d) |
   c8( d e d c4) |
   d4( g, e') |
   c8( d e d c d) |
