@@ -29,17 +29,17 @@
     #(define music #{
       \relative {
         c''8 g e c e g |
-        c8 g e c \clef "bass" g e |
-        c8 e g \clef "treble" c e g |
+        c8 g e c g e |
+        c8 e g c e g |
         c4. r |
       }
     #})
 
-    \mark \default << \music { s8-0 } >> \bar "||" \break
-    \mark \default \transpose c b, << \music { s8-2 } >> \bar "||" \break
-    \mark \default \transpose c b-flat, << \music { s8-1 } >> \bar "||" \break
-    \mark \default \transpose c a, << \music { s8-2-1 } >> \bar "||" \break
-    \mark \default \transpose c a-flat, << \music { s8-3-2 } >> \bar "||" \break
+    \mark \default \music \bar "||" \break
+    \mark \default \transpose c b, \music \bar "||" \break
+    \mark \default \transpose c b-flat, \music \bar "||" \break
+    \mark \default \transpose c a, \music \bar "||" \break
+    \mark \default \transpose c a-flat, \music \bar "|."
   }
 }
 
@@ -63,11 +63,11 @@
       }
     #})
 
-    \mark \default << \music { s8-0 } >> \bar "||" \break
-    \mark \default \transpose c b, << \music { s8-2 } >> \bar "||" \break
-    \mark \default \transpose c b-flat, << \music { s8-1 } >> \bar "||" \break
-    \mark \default \transpose c a, << \music { s8-2-1 } >> \bar "||" \break
-    \mark \default \transpose c a-flat, << \music { s8-3-2 } >> \bar "||" \break
+    \mark \default \music \bar "||" \break
+    \mark \default \transpose c b, \music \bar "||" \break
+    \mark \default \transpose c b-flat, \music \bar "||" \break
+    \mark \default \transpose c a, \music \bar "||" \break
+    \mark \default \transpose c a-flat, \music \bar "|."
   }
 }
 
@@ -91,10 +91,10 @@
       }
     #})
 
-    \mark \default << \music { s8-0 } >> \bar "||" \break
-    \mark \default \transpose c b, << \music { s8-2 } >> \bar "||" \break
-    \mark \default \transpose c b-flat, << \music { s8-1 } >> \bar "||" \break
-    \mark \default \transpose c a, << \music { s8-2-1 } >> \bar "||" \break
-    \mark \default \transpose c a-flat, << \music { s8-3-2 } >> \bar "||" \break
+    \mark \default \music \bar "||" \break
+    \mark \default \transpose c b, \music \bar "||" \break
+    \mark \default \transpose c b-flat, \music \bar "||" \break
+    \mark \default \transpose c a, \music \bar "||" \break
+    \mark \default \transpose c a-flat, \music \bar "|."
   }
 }
