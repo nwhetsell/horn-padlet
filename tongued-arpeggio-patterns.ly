@@ -54,8 +54,9 @@
         c8 g e c g e |
         c8 e g c e g |
         c4 r8 << { g8 c e } \\ { r4. } >> |
-        g,8 c e g4.~ |
-        g8 e c g e c |
+        \time 9/8
+        g4.~8 e c g e c |
+        \time 6/8
         g8 e c e g c |
         e8 g c e g e |
         c8 g e c g e |
